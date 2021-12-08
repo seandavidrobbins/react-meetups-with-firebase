@@ -2,6 +2,10 @@ import styles from "./MeetupItem.module.css";
 import Card from "../ui/Card";
 
 function MeetupItem(props) {
+  // useContext();
+
+  // function toggleFavoriteStatusHandler() {}
+
   return (
     <li className={styles.item}>
       <Card>
