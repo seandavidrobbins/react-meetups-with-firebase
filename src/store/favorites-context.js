@@ -1,5 +1,4 @@
 import { createContext, useState } from "react";
-import { propTypes } from "react-bootstrap/esm/Image";
 
 const FavoritesContext = createContext({
   favorites: [],
